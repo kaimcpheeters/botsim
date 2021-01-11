@@ -1,4 +1,4 @@
-from bot_collection import Detective, Grudger, Cooperator, Cheater, Copycat, Copykitten, Random
+from bots import Detective, Grudger, Cooperator, Cheater, Copycat, Copykitten, Random
 from simulator import create_bot, count_bots, run_generation, new_generation
 
 bots = []
