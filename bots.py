@@ -28,7 +28,7 @@ class Copykitten(Bot):
             self.cheatCount == 0
             return self.memory
 
-class MoMoneyMoProblems(Bot):
+class Greedy(Bot):
     def decide(self):
         if self.coins > 1:
             return 'cheat'
